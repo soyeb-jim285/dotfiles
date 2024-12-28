@@ -163,3 +163,7 @@ alias listaur="sudo pacman -Qqem"
 
 alias wezterm='flatpak run org.wezfurlong.wezterm'
 
+
+. "$HOME/.atuin/bin/env"
+
+eval "$(atuin init zsh)"
